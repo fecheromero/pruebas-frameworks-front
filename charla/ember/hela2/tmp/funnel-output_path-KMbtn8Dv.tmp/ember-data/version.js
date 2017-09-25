@@ -1,0 +1,1 @@
+/home/fede/charla/ember/hela2/tmp/creator-output_path-7bPY9cJ8.tmp/version.js

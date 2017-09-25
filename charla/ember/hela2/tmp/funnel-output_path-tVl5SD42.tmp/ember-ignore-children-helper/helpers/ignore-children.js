@@ -1,0 +1,1 @@
+/home/fede/charla/ember/hela2/tmp/funnel-input_base_path-teJOrC7l.tmp/helpers/ignore-children.js

@@ -1,0 +1,1 @@
+/home/fede/charla/ember/hela2/tmp/funnel-input_base_path-nmkFhqSe.tmp/mixins/parent-component-support.js

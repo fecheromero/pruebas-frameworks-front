@@ -1,0 +1,1 @@
+/home/fede/charla/ember/hela2/tmp/funnel-input_base_path-YSH1Ry8v.tmp/resolver.js

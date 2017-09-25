@@ -1,0 +1,1 @@
+/home/fede/charla/ember/hela2/tmp/funnel-input_base_path-ubDMFDqa.tmp/instance-initializers/initialize-store-service.js

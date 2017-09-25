@@ -1,0 +1,15 @@
+{{outlet}}
+<div class="row center-align">
+  {{#link-to "pagina-linkeada" }}
+  <a class="waves-effect waves-light btn">Link</a>
+  {{/link-to}}
+{{tabla-de-pedidos pedidos=pedidos}}
+  <div class="right-align">
+  <a class="waves-effect waves-light btn" {{action 'mostrarFormulario'}}>Agregar pedido</a>
+    {{#if mostrandoFormulario}}
+    {{agregar-pedido
+      cerrarFormulario=(action 'cerrarFormulario')
+      agregarPedido=(action 'agregarPedido')}}
+      {{/if}}
+  </div>
+  </div>

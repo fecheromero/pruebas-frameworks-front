@@ -1,0 +1,31 @@
+<div class="card-panel section">
+  <a class="btn-floating waves-effect waves-light red right" {{action cerrarFormulario}}  ><i class="material-icons ">close</i></a>
+  <div class="center-align">
+    <h3>Nuevo pedido</h3>
+  </div>
+  <div class="row">
+
+    <div class=" col s3">
+      <div class="left-align">
+      <label  for="Pino">Pino</label>
+      </div>
+        {{input type="text"  value=pedido.pino}}
+    </div>
+
+    <div  class="col s3"  style="position: relative" style="height: 65px" >
+      <div class="input-field" style="top: 5px">
+        {{md-select content=gustos value=pedido.gusto1 label="Helado" prompt="...."  }}
+
+      </div>
+    </div>
+
+  <div  class="col s3"  style="position: relative" style="height: 65px" >
+    <div class="input-field" style="top: 5px">
+      {{md-select content=gustos value=pedido.gusto2 label="Helado" prompt="...."  }}
+    </div>
+  </div>
+    </div>
+  <div class="card-action">
+    <a class="waves-effect waves-light btn" {{action agregarPedido pedido}}>Agregar</a>
+  </div>
+</div>

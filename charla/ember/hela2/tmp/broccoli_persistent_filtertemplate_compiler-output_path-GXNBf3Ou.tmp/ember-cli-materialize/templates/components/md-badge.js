@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"ymHdsezy","block":"{\"statements\":[[1,[26,[\"text\"]],false],[18,\"default\"],[0,\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"hasPartials\":false}","meta":{"moduleName":"ember-cli-materialize/templates/components/md-badge.hbs"}});

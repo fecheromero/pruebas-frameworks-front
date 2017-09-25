@@ -1,0 +1,1 @@
+/home/fede/charla/ember/hela2/tmp/broccoli_merge_trees-input_base_path-yc4v87Tl.tmp/0/hela2/tests/app.lint-test.js

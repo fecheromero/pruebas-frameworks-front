@@ -1,0 +1,1 @@
+/home/fede/charla/ember/hela2/tmp/funnel-input_base_path-lMs98zZj.tmp/components/welcome-page.js
