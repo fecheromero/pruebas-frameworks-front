@@ -1,0 +1,38 @@
+<form layout-padding name="phoneForm">
+    <p layout="row " layout-align="space-around center">
+<md-input-container  >
+        <label> Name</label>
+        <input ng-model="ctrl.name">
+ </md-input-container>
+
+    <md-input-container style="width:300px" >
+        <label> img Url</label>
+        <input ng-model="ctrl.imageUrl">
+    </md-input-container>
+    </p>
+    <p layout="row " layout-align="space-around center" >
+        <md-input-container class="md-block" style="width:100%">
+            <label>Description</label>
+            <input name="inputDescription" ng-model="ctrl.description"  md-maxlength="30" required    >
+            <div ng-messages="phoneForm.inputDescription.$error" ng-show="phoneForm.inputDescription.$dirty" >
+                <div ng-message="required" >This is required.</div>
+                <div ng-message="md-maxlength">The description must be less than 30 characters long.</div>
+            </div>
+        </md-input-container>
+    </p>
+    <p layout="row " layout-align="space-around center">
+        <md-checkbox ng-model="ctrl.Infrared" aria-label="Infrared">
+            Infrared
+        </md-checkbox>
+        <md-checkbox ng-model="ctrl.GPS" aria-label="Infrared">
+            GPS
+        </md-checkbox>
+    </p>
+
+    <p>
+        <md-card>
+    <img ng-src="{{ctrl.imageUrl}}"  />
+        </md-card>
+    </p>
+</form>
+
